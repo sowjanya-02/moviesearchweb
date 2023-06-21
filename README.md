@@ -21,3 +21,4 @@ Database- Elastic search
 2. Able to add movie from search query to user favorite movies list
 3. Movies will add asynchronously to data base and results will appear in Home page
 4. Delete Movie from Home page that will automatically update the database movies list
+5. We can able to add five movies for users favorite list
