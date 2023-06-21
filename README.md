@@ -1,4 +1,4 @@
-##Initial setup
+## Initial setup
   1. Need Docker for database
 
 ## Tech stack
@@ -15,3 +15,9 @@ Database- Elastic search
 3. Frontend:\
    npm install\
    npm start
+
+## Description
+1. Initially database container starts we didnt get data as its not persistent volume\
+2. Able to add movie from search query to user favorite movies list\
+3. Movies will add asynchronously to data base and results will appear in Home page\
+4. Delete Movie from Home page that will automatically update the database movies list
