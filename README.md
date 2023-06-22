@@ -7,12 +7,13 @@ Backend -Django\
 Database- Elastic search
 
 ## commands to run the app
-1. docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:7.10.1 \
+1. docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:7.10.1 
 2. For backend:\
      pipenv shell\
+     pipenv install django\
      cd backend\
      python3 manage.py runserver
-3. Frontend:\
+4. Frontend:\
    npm install\
    npm start
 
